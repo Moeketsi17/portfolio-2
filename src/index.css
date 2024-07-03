@@ -374,6 +374,13 @@ section {
 
 
 /* projects */
+.img-container {
+    background-color: #5cccc9;
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .btn-wrapper {
     display: flex;
     align-items: center;

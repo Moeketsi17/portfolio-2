@@ -16,6 +16,8 @@ import python from '../src/assets/images/image14.png';
 import figma from '../src/assets/images/image15.png';
 import photoshop from '../src/assets/images/image16.png';
 import illustrator from '../src/assets/images/image17.png';
+// portfolio images
+import genschool from '../src/assets/images/genschool.jpg';
 
 // Define imageMap
 export const imageMap = {
@@ -130,8 +132,8 @@ export {
 
 
 const dataportfolio = [
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A JavaScript project showcasing dynamic interactions.", link: "#", github: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A React project demonstrating component-based architecture.", link: "#", github: "#" },
+  { img: genschool, title: "Generations Schools", description: "A wordpress website with over 50 custom pages. I was tasked with bringing the existing design to life using wordpress.", link: "https://generationschools.co.za/", github: "#" },
+  { img: "https://picsum.photos/400/", title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
@@ -140,4 +142,10 @@ const dataportfolio = [
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
 ];
+
+
+
+
+
+
 

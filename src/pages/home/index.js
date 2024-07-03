@@ -135,7 +135,9 @@ const HomePage = () => {
           <div className="mb-5 po_items_ho">
             {dataportfolio.map((data, i) => (
               <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+                <div className="img-container">
+                  <img src={data.img} alt="" />
+                </div>
                 <div className="content">
                   <h3>{data.title}</h3>
                   <p>{data.description}</p>
