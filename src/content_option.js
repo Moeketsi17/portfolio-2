@@ -70,6 +70,7 @@ const services = [
   { title: "Matric/Grade 12 - 2015", description: "Dynamique Private High School" },
   { title: "CS50 Introduction to Programming with Python", description: "EdX - Certificate" },
   { title: "Node.js - The Complete RESTful API Masterclass", description: "Udemy - Course" },
+  { title: "Back-End Developer(Meta Blueprint):", description: "Cousera" },
 ];
 
 // const dataportfolio = [
@@ -129,14 +130,14 @@ export {
 
 
 const dataportfolio = [
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A JavaScript project showcasing dynamic interactions.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A React project demonstrating component-based architecture.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A JavaScript project showcasing dynamic interactions.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A React project demonstrating component-based architecture.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "#", github: "#" },
+  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
 ];
 

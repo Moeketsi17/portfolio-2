@@ -139,7 +139,10 @@ const HomePage = () => {
                 <div className="content">
                   <h3>{data.title}</h3>
                   <p>{data.description}</p>
-                  <a href={data.link}>View Project</a>
+                  <div className="btn-wrapper">
+                    <a href={data.link}>View Project</a>
+                    <a href={data.github}>View Code</a>
+                  </div>
                 </div>
               </div>
             ))}
