@@ -134,7 +134,7 @@ const HomePage = () => {
         {dataportfolio.length > 0 && (
           <div className="mb-5 po_items_ho">
             {dataportfolio.map((data, i) => (
-              <div key={i} className="po_item">
+              <div key={i} className="po_item box-container">
                 <div className="img-container">
                   <img src={data.img} alt="" />
                 </div>
