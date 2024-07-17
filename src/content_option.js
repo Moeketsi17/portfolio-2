@@ -67,6 +67,7 @@ const dataabout = {
 const worktimeline = [
   { jobtitle: "Front-End Developer", where: "CloudCo", date: "2023 - Present" },
   { jobtitle: "Junior Web Developer", where: "Worvic", date: "2020 - 2022" },
+  { jobtitle: "Web Developer/Designer", where: "Freelance ", date: "2018 - 2020" },
 ];
 
 const services = [
@@ -78,8 +79,8 @@ const services = [
 
 
 const contactConfig = {
-  YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_EMAIL: "moeketsilekoana0117@gmail.com",
+  YOUR_FONE: "067 793 2220",
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra.",
   YOUR_SERVICE_ID: "service_id",
   YOUR_TEMPLATE_ID: "template_id",

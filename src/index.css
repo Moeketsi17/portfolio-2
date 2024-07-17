@@ -371,6 +371,20 @@ section {
     }
 }
 
+@media screen and (max-width: 500px) {
+    
+
+    .intro_sec .text {
+        padding-top: 25vh;
+    }
+
+    .intro_sec .text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+}
+
 
 
 /* projects */
