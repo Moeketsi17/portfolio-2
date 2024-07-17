@@ -76,11 +76,6 @@ const services = [
   { title: "Back-End Developer(Meta Blueprint):", description: "Cousera" },
 ];
 
-// const dataportfolio = [
-//   { img: "https://picsum.photos/400/?grayscale", description: "The wisdom of life consists in the elimination of non-essentials.", link: "#" },
-//   { img: "https://picsum.photos/400/800/?grayscale", description: "The wisdom of life consists in the elimination of non-essentials.", link: "#" },
-//   // ...additional portfolio items
-// ];
 
 const contactConfig = {
   YOUR_EMAIL: "name@domain.com",
