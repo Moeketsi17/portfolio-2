@@ -375,13 +375,25 @@ section {
     
 
     .intro_sec .text {
-        padding-top: 25vh;
+        padding-top: 30vh;
     }
 
     .intro_sec .text h1 {
         font-size: 30px;
         margin-bottom: 10px;
         font-weight: 700;
+    }
+
+    .table th, .table td  {
+        
+        align-items: center;
+        font-size: 14px;
+        height: 60px;
+        padding-top: 20px;
+    }
+
+    .py-4 {
+        padding: 20px 0 0 !important;
     }
 }
 
