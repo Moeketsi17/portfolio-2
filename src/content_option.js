@@ -131,7 +131,6 @@ export {
 };
 
 
-
 const dataportfolio = [
   { img: genschool, title: "---", description: "A wordpress website with over 50 custom pages. I was tasked with bringing the existing design to life using wordpress.", link: "https://generationschools.co.za/", github: "#" },
   { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
