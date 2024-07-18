@@ -19,6 +19,7 @@ import illustrator from '../src/assets/images/image17.png';
 // portfolio images
 import genschool from '../src/assets/images/genschool.jpg';
 import Shoppy from '../src/assets/images/shoppy.jpg';
+import dc from '../src/assets/images/dc.jpg';
 
 // Define imageMap
 export const imageMap = {
@@ -133,7 +134,7 @@ const dataportfolio = [
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
   { img: Shoppy, title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
   { img: "", title: "CloudCo Digital", description: "Designg and  developed the website using Wordpress, created custom illustrations with Adobe Illustrator", link: "https://cloudco.digital/",  },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: dc, title: "DC Media", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
   { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
