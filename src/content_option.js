@@ -135,6 +135,7 @@ const dataportfolio = [
   { img: Shoppy, title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
   { img: "", title: "CloudCo Digital", description: "Designg and  developed the website using Wordpress, created custom illustrations with Adobe Illustrator", link: "https://cloudco.digital/",  },
   { img: dc, title: "DC Media", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: Shoppy, title: "Remmogo Bank", description: "financial SaaS platform that connects to multiple bank accounts and display transactions. App built with Next.js, TypeScript, Appqrite, Plaid and more", link: "", github: "https://github.com/Moeketsi17/remmogo_bank" },
   { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
