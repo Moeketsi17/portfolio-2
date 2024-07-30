@@ -129,16 +129,17 @@ export {
 
 
 const dataportfolio = [
-  { img: genschool, title: "---", description: "A wordpress website with over 50 custom pages. I was tasked with bringing the existing design to life using wordpress.", link: "https://generationschools.co.za/", github: "#" },
-  { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
-  { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Iphone 15 Pro landing page made with Three.js and GSAP", link: "#", github: "https://github.com/Moeketsi17/Iphone15" },
   { img: Shoppy, title: "Remmogo Bank", description: "financial SaaS platform that connects to multiple bank accounts and display transactions. App built with Next.js, TypeScript, Appqrite, Plaid and more", link: "", github: "https://github.com/Moeketsi17/remmogo_bank" },
+
+  { img: genschool, title: "BrainWave", description: "AI landing page built with React, and Tailwind CSS", link: "https://generationschools.co.za/", github: "#" },
+  { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
+  { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Iphone 15 Pro landing page made with Three.js and GSAP", link: "https://iphone15landing.netlify.app/", github: "https://github.com/Moeketsi17/Iphone15" },
   
   { img: "", title: "CloudCo Digital", description: "Designg and  developed the website using Wordpress, created custom illustrations with Adobe Illustrator", link: "https://cloudco.digital/",  },
   { img: Shoppy, title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
+  { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   
   { img: dc, title: "DC Media", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
-  { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
 ];
 
