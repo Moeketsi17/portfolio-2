@@ -89,10 +89,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  twitter: "https://twitter.com",
+  github: "https://github.com/Moeketsi17/",
+  linkedin: "https://www.linkedin.com/in/moeketsi-l-2032a222a/",
 };
 
 const skills = [
