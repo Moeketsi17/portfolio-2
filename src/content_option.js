@@ -82,7 +82,7 @@ const services = [
 const contactConfig = {
   YOUR_EMAIL: "moeketsilekoana0117@gmail.com",
   YOUR_FONE: "067 793 2220",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra.",
+  description: "",
   YOUR_SERVICE_ID: "service_id",
   YOUR_TEMPLATE_ID: "template_id",
   YOUR_USER_ID: "user_id",
