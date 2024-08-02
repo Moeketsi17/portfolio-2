@@ -41,6 +41,7 @@ section {
 
 
 
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -263,3 +264,7 @@ section {
 
 
 
+.text_2 {
+    border: none;
+    background: none;
+}

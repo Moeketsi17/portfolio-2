@@ -46,7 +46,7 @@ export const imageMap = {
 const logotext = "MOEKETSI";
 const meta = {
   title: "Moeketsi | Portfolio",
-  description: "I’m Moeketsi Lekoana _ web developer, currently working in Pretoria",
+  description: "I’m Moeketsi Lekoana _ web developer, currently working in Centurion",
 };
 
 const introdata = {
@@ -56,7 +56,7 @@ const introdata = {
     second: "Front-End Developer",
     third: "UI/UX Designer",
   },
-  description: "I'm a passionate Front-End Developer based in Pretoria with a strong focus on user interfaces and experiences.",
+  description: "I'm a passionate Front-End Developer based in Centurion with a strong focus on user interfaces and experiences.",
   your_img_url: "",
 };
 

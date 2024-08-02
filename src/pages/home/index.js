@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import Typewriter from "typewriter-effect";
 import { introdata, meta, dataportfolio, dataabout, worktimeline, skills, services, contactConfig, imageMap } from "../../content_option";
-import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const HomePage = () => {
@@ -16,6 +15,13 @@ const HomePage = () => {
     alertmessage: "",
     variant: "",
   });
+
+  const portfolioRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const handleScroll = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -76,10 +82,6 @@ const HomePage = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center">
-          {/* <div
-            className="h_bg-image order-1 order-lg-2 h-100"
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div> */}
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center">
               <div className="intro mx-auto">
@@ -100,22 +102,22 @@ const HomePage = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="#portfolio" className="text_2">
+                  <button onClick={() => handleScroll(portfolioRef)} className="text_2">
                     <div id="button_p" className="ac_btn btn">
                       My Projects
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
-                  <Link to="#contact">
+                  </button>
+                  <button onClick={() => handleScroll(contactRef)} className="text_2">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>
@@ -123,38 +125,35 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section id="portfolio" className="portfolio">
-      <Container className="About-header">
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4">Projects</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
-        {dataportfolio.length > 0 && (
-          <div className="mb-5 po_items_ho">
-            {dataportfolio.map((data, i) => (
-              <div key={i} className="po_item box-container">
-                <div className="img-container">
-                  <img src={data.img} alt="" />
-                </div>
-                <div className="content">
-                  <h3>{data.title}</h3>
-                  <p>{data.description}</p>
-                  <div className="btn-wrapper">
-                    <a href={data.link}>View Project</a>
-                    <a href={data.github}>View Code</a>
+      <section id="portfolio" className="portfolio" ref={portfolioRef}>
+        <Container className="About-header">
+          <Row className="mb-5 mt-3 pt-md-3">
+            <Col lg="8">
+              <h1 className="display-4 mb-4">Projects</h1>
+              <hr className="t_border my-4 ml-0 text-left" />
+            </Col>
+          </Row>
+          {dataportfolio.length > 0 && (
+            <div className="mb-5 po_items_ho">
+              {dataportfolio.map((data, i) => (
+                <div key={i} className="po_item box-container">
+                  <div className="img-container">
+                    <img src={data.img} alt="" />
+                  </div>
+                  <div className="content">
+                    <h3>{data.title}</h3>
+                    <p>{data.description}</p>
+                    <div className="btn-wrapper">
+                      <a href={data.link}>View Project</a>
+                      <a href={data.github}>View Code</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        )}
-      </Container>
-    </section>
-
-
-
+              ))}
+            </div>
+          )}
+        </Container>
+      </section>
 
       <section id="about" className="about">
         <Container className="About-header">
@@ -230,10 +229,8 @@ const HomePage = () => {
           </Row>
         </Container>
       </section>
-      
 
-
-      <section id="contact" className="contact">
+      <section id="contact" className="contact" ref={contactRef}>
         <Container>
           <Row className="mb-5 mt-3 pt-md-3">
             <Col lg="8">
@@ -254,16 +251,6 @@ const HomePage = () => {
                   {formData.alertmessage}
                 </Alert>
               )}
-              {/* <ul className="po_items_ho">
-                {socialIcons.length > 0 &&
-                  socialIcons.map((icon, index) => (
-                    <li key={index}>
-                      <a href={icon.url}>
-                        <i className={icon.class}></i>
-                      </a>
-                    </li>
-                  ))}
-              </ul> */}
             </Col>
             <Col lg="7" className="d-flex align-items-center">
               <form onSubmit={handleSubmit} className="contact__form w-100">
