@@ -16,6 +16,8 @@ import python from '../src/assets/images/image14.png';
 import figma from '../src/assets/images/image15.png';
 import photoshop from '../src/assets/images/image16.png';
 import illustrator from '../src/assets/images/image17.png';
+import next from '../src/assets/images/image18.png';
+
 // portfolio images
 import genschool from '../src/assets/images/genschool.jpg';
 import Shoppy from '../src/assets/images/shoppy.jpg';
@@ -25,6 +27,7 @@ import dc from '../src/assets/images/dc.jpg';
 export const imageMap = {
   javascript,
   react,
+  next,
   JQuery,
   HTML,
   CSS,
@@ -97,6 +100,7 @@ const skills = [
   { name: "HTML", image: "HTML" },
   { name: "CSS", image: "CSS" },
   { name: "javascript", image: "javascript" },
+  { name: "next", image: "next" },
   { name: "react", image: "react" },
   { name: "PHP", image: "PHP" },
   { name: "JQuery", image: "JQuery" },
@@ -131,7 +135,7 @@ const dataportfolio = [
 
   { img: genschool, title: "BrainWave", description: "Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.", link: "https://aibrainwave1.netlify.app/", github: "https://github.com/Moeketsi17/brainwave" },
   { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
-  { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Iphone 15 Pro landing page made with Three.js and GSAP", link: "https://iphone15landing.netlify.app/", github: "https://github.com/Moeketsi17/Iphone15" },
+  { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Apple Iphon 15 Pro landing page using React.js and TailwindCSS. It highlights the use of GSAP and Three.js for displaying models in various colors and shapes.", link: "https://iphone15landing.netlify.app/", github: "https://github.com/Moeketsi17/Iphone15" },
   
   { img: "", title: "CloudCo Digital", description: "Designg and  developed the website using Wordpress, created custom illustrations with Adobe Illustrator", link: "https://cloudco.digital/",  },
   { img: Shoppy, title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
