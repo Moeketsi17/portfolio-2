@@ -17,6 +17,8 @@ import figma from '../src/assets/images/image15.png';
 import photoshop from '../src/assets/images/image16.png';
 import illustrator from '../src/assets/images/image17.png';
 import next from '../src/assets/images/image18.png';
+import sass from '../src/assets/images/image19.png';
+import tailwind from '../src/assets/images/image20.png';
 
 // portfolio images
 import genschool from '../src/assets/images/genschool.jpg';
@@ -31,6 +33,8 @@ export const imageMap = {
   JQuery,
   HTML,
   CSS,
+  tailwind,
+  sass,
   PHP,
   node,
   express,
@@ -107,6 +111,8 @@ const skills = [
   { name: "JQuery", image: "JQuery" },
   { name: "node", image: "node" },
   { name: "express", image: "express" },
+  { name: "sass", image: "sass" },
+  { name: "tailwind", image: "tailwind" },
   { name: "CPanel", image: "CPanel" },
   { name: "wordpress", image: "wordpress" },
   { name: "python", image: "python" },
@@ -117,18 +123,7 @@ const skills = [
   { name: "illustrator", image: "illustrator" },
 ];
 
-export {
-  meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
-  skills,
-  services,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
+
 
 
 const dataportfolio = [
@@ -148,7 +143,18 @@ const dataportfolio = [
 
 
 
-
+export {
+  meta,
+  dataabout,
+  dataportfolio,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
+};
 
 
 
