@@ -10,7 +10,7 @@ import express from '../src/assets/images/image8.png';
 import CPanel from '../src/assets/images/image9.png';
 import wordpress from '../src/assets/images/image10.png';
 import mysql from '../src/assets/images/image11.png';
-import github from '../src/assets/images/image12.png';
+// import github from '../src/assets/images/image12.png';
 import django from '../src/assets/images/image13.png';
 import python from '../src/assets/images/image14.png';
 import figma from '../src/assets/images/image15.png';
@@ -19,6 +19,8 @@ import illustrator from '../src/assets/images/image17.png';
 import next from '../src/assets/images/image18.png';
 import sass from '../src/assets/images/image19.png';
 import tailwind from '../src/assets/images/image20.png';
+import github from '../src/assets/images/image21.png';
+import git from '../src/assets/images/image22.png';
 
 // portfolio images
 import genschool from '../src/assets/images/genschool.jpg';
@@ -41,12 +43,13 @@ export const imageMap = {
   CPanel,
   wordpress,
   mysql,
-  github,
   django,
   python,
   figma,
   photoshop,
   illustrator,
+  github,
+  git
 };
 
 // Other exports
@@ -121,6 +124,9 @@ const skills = [
   { name: "figma", image: "figma" },
   { name: "photoshop", image: "photoshop" },
   { name: "illustrator", image: "illustrator" },
+  { name: "github", image: "github" },
+  { name: "git", image: "git" },
+
 ];
 
 
