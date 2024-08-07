@@ -135,7 +135,7 @@ const skills = [
 const dataportfolio = [
   { img: Shoppy, title: "Remmogo Bank", description: "financial SaaS platform that connects to multiple bank accounts and display transactions. App built with Next.js, TypeScript, Appqrite, Plaid and more", link: "", github: "https://github.com/Moeketsi17/remmogo_bank" },
 
-  { img: genschool, title: "BrainWave", description: "Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.", link: "https://aibrainwave1.netlify.app/", github: "https://github.com/Moeketsi17/brainwave" },
+  { img: genschool, title: "BrainWave", description: "Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.", link: "https://brainwave-a1.netlify.app/", github: "https://github.com/Moeketsi17/brainwave" },
   { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
   { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Apple Iphon 15 Pro landing page using React.js and TailwindCSS. It highlights the use of GSAP and Three.js for displaying models in various colors and shapes.", link: "https://iphone15landing.netlify.app/", github: "https://github.com/Moeketsi17/Iphone15" },
   

@@ -432,3 +432,43 @@ section {
     border: none;
     background: none;
 }
+
+/* Add these styles to your CSS file */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: ; */
+    gap: 30px;
+    color: #fff; /* Adjust the text color as needed */
+  }
+  
+  .stat {
+    text-align: center;
+    background-color: #111;
+    width: 250px;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .stat h3 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin: 0;
+  }
+  
+  .stat p {
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin: 0;
+    opacity: 0.8;
+  }
+  

@@ -123,6 +123,25 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
+        <div className="stats-section">
+            <div className="stat">
+              <h3>3+</h3>
+              <p>Years Professional Experience</p>
+            </div>
+            <div className="stat">
+              <h3>15+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div className="stat">
+              <h3>02</h3>
+              <p>Companies Worked At</p>
+            </div>
+            {/* <div className="stat">
+              <h3>07+</h3>
+              <p>Years Experience</p>
+            </div> */}
+          </div>
       </section>
 
       <section id="portfolio" className="portfolio" ref={portfolioRef}>
