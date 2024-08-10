@@ -139,11 +139,11 @@ const dataportfolio = [
   { img: "https://picsum.photos/400/", title: "BASIC/DEPT", description: "A landing page remake of BASIC digital agency. The remake is made with HTML, CSS and JavaScript with  smooth animations", link: "https://basicdept.netlify.app/", github: "https://github.com/Moeketsi17/BASIC" },
   { img: "https://picsum.photos/400/", title: "Iphone 15", description: "Apple Iphon 15 Pro landing page using React.js and TailwindCSS. It highlights the use of GSAP and Three.js for displaying models in various colors and shapes.", link: "https://iphone15landing.netlify.app/", github: "https://github.com/Moeketsi17/Iphone15" },
   
-  { img: "", title: "The CEO", description: "Photography portfolio website with modern UI/UX design. Website built with Next.js", link: "https://cloudco.digital/",  },
+  { img: "https://picsum.photos/400/", title: "The CEO", description: "Photography portfolio website with modern UI/UX design. Website built with Next.js", link: "https://cloudco.digital/",  },
   { img: Shoppy, title: "Shoppy Dashboard", description: "Dashboard web app to streamline project management and enhanced productivity. Made with React, TailwindCSS and Syncfusion.", link: "https://syncdashboardapp.netlify.app/", github: "https://github.com/Moeketsi17/dashboard" },
   { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   
-  { img: dc, title: "IF Packaging", description: "A static HTML project focusing on semantic structure.", link: "#", github: "#" },
+  { img: dc, title: "IF Packaging", description: "Custom Packaging website with dark mode toggle. Made with Wordpress and Elementor", link: "https://ifpackaging.co.za/" },
   { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
 ];
 
