@@ -144,7 +144,7 @@ const dataportfolio = [
   { img: "https://picsum.photos/400/", title: "Blackdot Studios", description: "A design and development agency website. Made with HTML, CSS and Javascript", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
   
   { img: dc, title: "IF Packaging", description: "Custom Packaging website with dark mode toggle. Made with Wordpress and Elementor", link: "https://ifpackaging.co.za/" },
-  { img: "https://picsum.photos/400/", title: "JavaScript Project", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
+  { img: "https://picsum.photos/400/", title: "Care Pulse", description: "A jQuery project with animations and DOM manipulations.", link: "https://blkstd.netlify.app/", github: "https://github.com/Moeketsi17/Blackdot-2024" },
 ];
 
 
